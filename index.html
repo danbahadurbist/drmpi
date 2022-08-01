@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Dinesh Ramji Memorial Polytechnic Institute</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="public/css/bootstrap.css" media="screen">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link href="public/fontawesome/css/fontawesome.min.css" rel="stylesheet">
+    <link href="public/fontawesome/css/solid.min.css" rel="stylesheet">
+
+    <link href="public/css/style.css" rel="stylesheet">
+
+    <link href="public/css/dataTables.bootstrap5.min.css" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="16x16" href="public/img/favicon.ico">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <style>
+    </style>
+
+
+
+
+    <noscript>
+      <meta http-equiv="refresh" content="0.0;url=nojs.php">
+    </noscript>
+</head>
+
+<body>
+
+    <div class="top_header">
+        <div class="row">
+            <div class="col-lg-12">2022 August 01, Monday<span id="nepali_date"></span><a href="https://docs.google.com/forms/d/e/1FAIpQLSeXyZapLoMpGOn5N53qSttqvs4HToREJUTSB--X8OXCZFanGA/viewform">Login</a></div>
+
+        </div>
+    </div>
+    <div class="header">
+        <div class="row">
+            <div class="col-lg-3 text-end"><img src="public/img/logo-admin.png" class="img-responsive" title="ctevt logo" width="60px"></div>
+            <div class="col-lg-6">
+                <h3>Dimesh Ramji Memorial Polytechnic Institute</h3>
+                <h3>Sindhupalchok-05,Chautara</h3>
+            </div>
+            <div class="col-lg-3 text-end">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+
+        <div class="page-header" id="banner">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="list-group">
+
+                        <a href="index.html" class="list-group-item active">Home</a>
+                        <a href="#" class="list-group-item ">Notice</a>
+                        <a href="#" class="list-group-item ">Institute Profile Report</a>
+                        <a href="#" class="list-group-item ">District-wise Institute</a>
+                        <a href="#" class="list-group-item "></i>Examination Notice</a>
+                        <a href="#" class="list-group-item "></i> Students Performance Report</a>
+                        <a href="#" class="list-group-item "></i> Check Results</a>
+                        <a href="#" class="list-group-item "></i>Scholarshop</a>
+                        <a href="https://www.drmpi.edu.np/" style="color:#f10808;" class="list-group-item "></i>More Details</a></i>
+                        <img src="admin.png">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="jumbotron">
+                        <h4>Welcome</h4>
+                        <p style="text-align:justify;"id="animate">
+
+
+
+<!--image slider start-->
+<div class="slider">
+    <div class="slides">
+      <!--radio buttons start-->
+      <input type="radio" name="radio-btn" id="radio1">
+      <input type="radio" name="radio-btn" id="radio2">
+      <input type="radio" name="radio-btn" id="radio3">
+      <input type="radio" name="radio-btn" id="radio4">
+      <input type="radio" name="radio-btn" id="radio5">
+      <!--radio buttons end-->
+      <!--slide images start-->
+      <div class="slide first">
+        <img src="29.jpg" alt="">
+      </div>
+      <div class="slide">
+        <img src="ITSlider1.jpg" alt="">
+      </div>
+      <div class="slide">
+        <img src="program.png" alt="">
+      </div>
+      <div class="slide">
+        <img src="2.jpg" alt="">
+      </div>
+      <div class="slide">
+        <img src="processor.jpg" alt="">
+      </div>
+      <!--slide images end-->
+      <!--automatic navigation start-->
+      <div class="navigation-auto">
+        <div class="auto-btn1"></div>
+        <div class="auto-btn2"></div>
+        <div class="auto-btn3"></div>
+        <div class="auto-btn4"></div>
+        <div class="auto-btn5"></div>
+      </div>
+      <!--automatic navigation end-->
+    </div>
+    <!--manual navigation start-->
+    <div class="navigation-manual">
+      <label for="radio1" class="manual-btn"></label>
+      <label for="radio2" class="manual-btn"></label>
+      <label for="radio3" class="manual-btn"></label>
+      <label for="radio4" class="manual-btn"></label>
+      <label for="radio5" class="manual-btn"></label>
+    </div>
+    <!--manual navigation end-->
+  </div>
+  <!--image slider end-->
+
+  <script type="text/javascript">
+  var counter = 1;
+  setInterval(function(){
+    document.getElementById('radio' + counter).checked = true;
+    counter++;
+    if(counter >5){
+      counter = 1;
+    }
+  }, 5000);
+  </script>
+
+</p>
+
+ </div>
+   <style>
+
+.slider{
+    margin:0;
+    padding: 0;
+  width:630px;
+  height: 490px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.slides{
+  width: 500%;
+  height: 500px;
+  display: flex;
+}
+
+.slides input{
+  display: none;
+}
+
+.slide{
+  width: 20%;
+  transition: 2s;
+}
+
+.slide img{
+  width: 800px;
+  height: 500px;
+}
+
+/*css for manual slide navigation*/
+
+.navigation-manual{
+  position: absolute;
+  width: 800px;
+  margin-top: -40px;
+  display: flex;
+  justify-content: center;
+}
+
+.manual-btn{
+  border: 2px solid #40D3DC;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: .1s;
+}
+
+.manual-btn:not(:last-child){
+  margin-right: 40px;
+}
+
+.manual-btn:hover{
+  background: #40D3DC;
+}
+
+#radio1:checked ~ .first{
+  margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+  margin-left: -20%;
+}
+
+#radio3:checked ~ .first{
+  margin-left: -40%;
+}
+
+#radio4:checked ~ .first{
+  margin-left: -60%;
+}
+#radio5:checked ~ .first{
+  margin-left: -60%;
+}
+
+/*css for automatic navigation*/
+
+.navigation-auto{
+  position: absolute;
+  display: flex;
+  width: 800px;
+  justify-content: center;
+  margin-top: 460px;
+}
+
+.navigation-auto div{
+  border: 2px solid #40D3DC;
+  padding: 5px;
+  border-radius: 10px;
+  transition: 1s;
+}
+
+.navigation-auto div:not(:last-child){
+  margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+  background: #40D3DC;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2{
+  background: #40D3DC;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3{
+  background: #40D3DC;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4{
+  background: #40D3DC;
+}
+#radio5:checked ~ .navigation-auto .auto-btn5{
+  background: #40D3DC;
+}
+      
+    </style>
+
+                    <div class="jumbotrons" style="background: #FFF;">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="acme-news-ticker">
+                                    <div class="acme-news-ticker-label">Highlights</div>
+                                    <div class="acme-news-ticker-box">
+                                        <ul class="notice-body">
+                                            <li><a href="#"><marquee>डिप्लोमा/प्रमाणपत्र तहमा पुर्ण शुल्कीय तर्फको प्रवेश परीक्षाको आवेदन फाराम भर्ने सूचना |</marquee> </a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <h5 style="background: #EEE; padding: 10px;margin-top:10px;">Recent Notices</h5>
+                                <table width="100%" border="1" bordercolor="#CCC" class="table table-striped table-hover " id="home_table">
+                                    <thead>
+                                        <tr>
+                                            <th width="15%" class="text-center">Published Date</th>
+                                            <th width="55%" class="text-center">Notice Title</th>
+                                            <th width="15%" class="text-center">Files</th>
+                                            <th width="15%" class="text-center">Published By</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+
+                                        
+                                        <tr>
+
+                                            <td class="text-center">Shrawn 16, 2079</td>
+                                            <td><a href="https://www.facebook.com/drmpi/videos/577602313805624">Admission Open soon for 2022
+                                                Programs: Diploma in Civil Engineering, Diploma in Information Technology</a></td>
+
+                                            <td class="text-center"><a href="https://www.facebook.com/drmpi/videos/577602313805624" target="_blank"><i class="fa-solid fa-angles-right" title="https://www.facebook.com/drmpi/videos/577602313805624"></i></a>
+                                            <td>Admin</td>
+                                        </tr>
+
+                                        <tr>
+
+                                            <td class="text-center">Shrawn 16, 2079</td>
+                                            <td><a href="https://www.facebook.com/drmpi/photos/pcb.574406187666604/574404141000142/">Admission Open soon for 2022
+                                                Programs: Diploma in Civil Engineering, Diploma in Information Technology </a></td>
+
+                                            <td class="text-center"><a href="#" target="_blank"><i class="fa-solid fa-angles-right" title=""></i></a>
+                                            <td>Admin</td>
+                                        </tr>
+
+
+                                        <tr>
+
+                                            <td class="text-center">Shrawn 16, 2079</td>
+                                            <td><a href="https://www.facebook.com/drmpi/photos/a.111387573968470/573669161073640/">प्रवेश परीक्षा आवेदन फाराम भर्ने सूचना</a></td>
+
+                                            <td class="text-center"><a href="https://www.facebook.com/drmpi/photos/a.111387573968470/573669161073640/" target="_blank"><i class="fa-solid fa-file-pdf" title="https://www.facebook.com/drmpi/photos/a.111387573968470/573669161073640/"></i></a>
+                                            </td>
+                                            <td>Admin</td>
+                                        </tr>
+
+                                    </tbody>
+                                </table>
+
+
+                            </div>
+                            <div class="col-lg-12 text-right" style="font-size: 13px;"><a href="#">More Notices<i class="fa-solid fa-angles-right" style="margin-left: 5px;"></i></a></div>
+                        </div>
+
+                    </div>
+                    
+                    <video src="Drmpi.mp4" autoplay width="650vh" controls></video>
+                </div>
+
+
+
+                <div class="col-lg-3">
+                    <div class="member-group">
+                        <img src="pre.jpg" class="img img-fluid">
+                        <div><label><strong>Ramchandra Dahal</strong></label></div>
+                        <div><label>Principal, DRMPI</label></div>
+
+                    </div>
+                    <div class="member-group">
+                        <img src="ITInstructor1.jpg" class="img img-fluid">
+                        <div><label><strong>Mr.Sunil Ghale</strong></label></div>
+                        <div><label>IT Department Head, DRMPI</label></div>
+
+                    </div>
+                    <div class="member-group">
+                        <img src="bishan.PNG" class="img img-fluid">
+                        <div><label><strong>Mr.Bishan Giri</strong></label></div>
+                        <div><label>IT Instructor, DRMPI</label></div>
+                    </div>
+                  <a href="imagadmin.jpg" ><img src="imagadmin.jpg" width="400rem" height="700rem" aria-controls></a>
+                
+                </div>
+
+            </div>
+        </div>
+
+        <footer>
+            <div class="row">
+                <div class="col-lg-4 col-sm-12 first">
+                    <p style="text-align:left;">Copyright: <a href="#">DRMPI @ 2022</a></p>
+                </div>
+                <div class="col-lg-4 col-sm-12 second">
+                    <p style="text-align:center;"><a  href="https://forms/d/e/1FAIpQLSeXyZapLoMpGOn5N53qSttqvs4HToREJUTSB--X8OXCZFanGA/viewform" style="margin-left:20px;font-weight: bold;">User Login</a></p><br/><br/>
+                    <p style="text-align:center;"><a  style="margin-left:20px;font-weight: bold;">Follow Us</a></p><br>
+                    <p style="text-align:center;"><a class="icon" href="https://www.facebook.com/drmpi" style="margin-left:20px;font-weight: bold;"><i class="fab fa-facebook"></i></a></p>
+                    <p style="text-align:center;"><a class="icon" href="#" style="margin-left:20px;font-weight: bold;"><i class="fab fa-youtube"></i></a></p>
+                    <p style="text-align:centerm;"><a class="icon" href="#" style="margin-left:20px;font-weight: bold;"><i class="fab fa-facebook-messenger"></i></a></p>
+                    <style>
+                        .icon:hover{
+                            background-color:rgb(79, 79, 146);
+                            size:larger;
+                            color:rgb(150, 150, 150);
+                        }
+
+                    </style>
+                </div>
+                <div class="col-lg-4 col-sm-12 third">
+                    <p style="text-align:right;"><a href="mailto:info@drmpi.org.np">eMail: info@drmpi.org.np</a> </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+    <script src="public/js/bootstrap.min.js"></script>
+    <script src="public/js/jquery.dataTables.min.js"></script>
+    <script src="public/js/dataTables.bootstrap5.min.js"></script>
+    <script src="public/js/acmeticker.js"></script>
+    <script src="public/js/nepali.datepicker.v3.2.min.js"></script>
+
+
+    <script>
+        $(document).ready(function() {
+
+            table = $('#table1').DataTable({
+                "destroy": true,
+                "processing": true,
+                "serverSide": true,
+                "ajax": {
+                    url: "notices/get-ajax-notices",
+                    data: {
+                        "tab_id": 'tab-0'
+                    }
+                },
+
+                "columns": [{
+                        "data": "serial_no"
+                    },
+                    {
+                        "data": "updated_date"
+                    },
+                    {
+                        "data": "notice_title"
+                    },
+                    {
+                        "data": "notice_files"
+                    },
+                    {
+                        "data": "publisher"
+                    },
+                ],
+
+                'columnDefs': [{
+                        "targets": 0,
+                        "className": "text-center",
+                        "orderable": false
+                    },
+                    {
+                        "targets": 1,
+                        "orderable": false
+                    },
+                    {
+                        "targets": 2,
+                        "orderable": false
+                    },
+
+                    {
+                        "targets": 3,
+                        "className": "text-center",
+                        "searchable": false,
+                        "orderable": false
+
+                    },
+                    {
+                        "targets": 4,
+                        "orderable": false
+                    }
+                ]
+
+            });
+
+            $('body').on('click', '.nav-link', function() {
+
+                var id = $(this).attr('id');
+
+                table = $('#table1').DataTable({
+                    "destroy": true,
+                    "processing": true,
+                    "serverSide": true,
+                    "ajax": {
+                        url: "notices/get-ajax-notices",
+                        data: {
+                            "tab_id": id
+                        }
+                    },
+
+                    "columns": [{
+                            "data": "serial_no"
+                        },
+                        {
+                            "data": "updated_date"
+                        },
+                        {
+                            "data": "notice_title"
+                        },
+                        {
+                            "data": "notice_files"
+                        },
+                        {
+                            "data": "publisher"
+                        },
+                    ],
+
+                    'columnDefs': [{
+                            "targets": 0,
+                            "className": "text-center",
+                            "orderable": false
+                        },
+                        {
+                            "targets": 1,
+                            "orderable": false
+                        },
+                        {
+                            "targets": 2,
+                            "orderable": false
+                        },
+
+                        {
+                            "targets": 3,
+                            "className": "text-center",
+                            "searchable": false,
+                            "orderable": false
+
+                        },
+                        {
+                            "targets": 4,
+                            "orderable": false
+                        }
+                    ]
+
+                });
+
+            });
+
+
+            $('.notice-body').AcmeTicker({
+                type: 'marquee',
+                /*horizontal/horizontal/Marquee/type*/
+                direction: 'left',
+                /*up/down/left/right*/
+                speed: 0.04,
+                /*true/false/number*/ /*For vertical/horizontal 600*/ /*For marquee 0.05*/ /*For typewriter 50*/
+                controls: {
+                    toggle: $('.acme-news-ticker-pause'),
+                    /*Can be used for horizontal/horizontal/typewriter*/ /*not work for marquee*/
+                }
+            });
+        })
+
+        //nepali date
+        currMonth = NepaliFunctions.GetCurrentBsMonth();
+        currDay = NepaliFunctions.GetCurrentBsDay();
+        currYear = NepaliFunctions.GetCurrentBsYear();
+
+        day = NepaliFunctions.GetBsFullDayInUnicode({
+            year: currYear,
+            month: currMonth,
+            day: currDay
+        });
+        currentDate = NepaliFunctions.GetBsFullDate({
+            year: currYear,
+            month: currMonth,
+            day: currDay
+        }, true);
+
+        full_date = day + ', ' + currentDate;
+        document.getElementById("nepali_date").innerHTML = full_date;
+    </script>
+</body>
+
+</html>
